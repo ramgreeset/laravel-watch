@@ -1,1 +1,1 @@
-<x-layout>Contact</x-layout>>
+<x-layout>Contact</x-layout>

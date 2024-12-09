@@ -1,1 +1,1 @@
-<x-layout>Courses</x-layout>>
+<x-layout>Courses</x-layout>

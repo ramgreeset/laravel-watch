@@ -1,1 +1,1 @@
-<x-layout>Register</x-layout>>
+<x-layout>Register</x-layout>

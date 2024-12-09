@@ -1,1 +1,1 @@
-<x-layout>Login</x-layout>>
+<x-layout>Login</x-layout>

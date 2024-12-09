@@ -1,1 +1,1 @@
-<x-layout>Index</x-layout>>
+<x-layout>Index</x-layout>
