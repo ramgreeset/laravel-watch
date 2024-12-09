@@ -1,4 +1,5 @@
-<h3>Lesson 1. Подготовка окружения разработки</h3>
+<h3><a href="https://www.youtube.com/watch?v=X2q8dcqpjOg&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=1">Lesson 1.
+Подготовка окружения разработки</a></h3>
 <ul>
 <li>Установка Laravel Herd</li>
 <li>Установка PHP через Laravel Herd</li>
@@ -13,18 +14,21 @@
 <li>Запуск защищенного соединения (TLS сертификат)с проектом herd secure</li>
 </ul>
 
-<h3>Lesson 2. Плагины</h3>
+<h3><a href="https://www.youtube.com/watch?v=wWqPOEevbgE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=2">Lesson 2.
+Плагины</a></h3>
 <ul>
 <li>Для более удобной работы с Laravel проектами рекомендуется к установке плагин Laravel Idea</li>
 </ul>
 
-<h3>Lesson 3. Форматирование кода</h3>
+<h3><a href="https://www.youtube.com/watch?v=x46NMH4UbFE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=3">Lesson 3.
+Форматирование кода</a></h3>
 <ul>
 <li>Стандартный форматер кода</li>
 <li>Настраеваем форматер Pint от Laravel</li>
 </ul>
 
-<h3>Lesson 4. Установка TailwindCSS</h3>
+<h3><a href="https://www.youtube.com/watch?v=0ST5ZVevJ6k&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=4">Lesson 4.
+Установка Tailwind CSS</a></h3>
 <ul>
 <li>Устанавливаем Tilewind CSS</li>
 <li>Настраиваем tailwind.config.js</li>
@@ -34,7 +38,8 @@
 <li>Указываем роут для тестирования подключения Tailwind</li>
 </ul>
 
-<h3>Lesson 5. Делаем разметку шапки сайта</h3>
+<h3><a href="https://www.youtube.com/watch?v=KX5o5PcJJ4Y&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=5">Lesson 5.
+Делаем разметку шапки сайта</a></h3>
 <ul>
 <li>Пишем html структуру <header></header></li>
 <li>Добавляем иконку с сайта fontawesome.com в качестве логотипа</li>
@@ -43,32 +48,44 @@
 <li>Задаем контейнер для контента</li>
 <li>Указываем настройки для контейнера в файле tailwind.config.js для центровки (theme:{container:{center:true}})</li>
 <li>Задаем шапке fixed свойства</li>
-<li></li>
-<li></li>
 </ul>
 
-<h3>Lesson 6. Интерполяция в blade-шаблонах. Динамические значения</h3>
+<h3><a href="https://www.youtube.com/watch?v=2JgdtzmGcDA&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=6">Lesson 6.
+Интерполяция в blade-шаблонах. Динамические значения</a></h3>
 <ul>
 <li>Двойные фигурные скобки в blade {{ | }} - Вывод экранированных данных с дополнительной защитой от XSS атак</li>
 <li>config('app.name') - вывод значения APP_NAME из config -> app.php -> env -> APP_NAME</li>
 <li>Присваивание имени пути Route::view('/', 'index')->name('index'); для обращения к пути через route('index')</li>
 </ul>
 
-<h3>Lesson 7. Маршруты</h3>
+<h3><a href="https://www.youtube.com/watch?v=NCUb3dF0lnw&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=7">Lesson 7.
+Маршруты</a></h3>
 <ul>
 <li>GET обращение к маршруту /courses и возврат строкового значения из функции</li>
 <li>Рефакторим функцию в стрелочную для улучшения читаемости кода</li>
 <li>Создаем маршруты для всех страниц сайта</li>
+</ul>
 
-</ul>
-<h3>Lesson N.</h3>
+<h3><a href="https://www.youtube.com/watch?v=ZxeczT2vA-Q&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=8">Lesson 8.
+Компонент layout</a></h3>
 <ul>
-<li></li>
+<li>Создаем папку components для хранения blade компонентов</li>
+<li>Создаем компонент при помощи функционала Laravel Idea, create view</li>
+<li>Создаем компонент layout.blade.php</li>
+<li>Связываем <x-name>Content</x-name> c {{ $slot }}. В $slot падает весь контент, который был определен в <x-name> связь организуется по названию компонентов и тега</li>
+<li>Создаем компоненты для всех роутов</li>
 </ul>
-<h3>Lesson N.</h3>
+
+<h3><a href="https://www.youtube.com/watch?v=8f0yC0OfyhE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=9"></a>Lesson 9.
+Компоненты шапки</h3>
 <ul>
-<li></li>
+<li>Разбиваем разметку хедера на компоненты</li>
+<li>Выделяем ссылки навигации в массив при помощи директивы @php</li>
+<li>Выводим ссылки при помощи директивы @foreach</li>
+<li>В компоненте nav.blade мы определяем <x-nav> с атрибутом :href (с двоеточием), который в последствии упадет в {{ $attributes }} указанную в компоненте nav-item</li>
+<li>Сокращаем :href так как имя атрибута совпадает с именем переменной, которую мы помещаем в качестве атрибута</li>>
 </ul>
+
 <h3>Lesson N.</h3>
 <ul>
 <li></li>
