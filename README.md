@@ -1,3 +1,8 @@
+<pre>
+<a href="https://www.youtube.com/watch?v=X2q8dcqpjOg&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=1">Laravel для новичков</a>
+<b>Stack</b>: Laravel, Blade Templates, PostgreSQL
+</pre>
+
 <h3><a href="https://www.youtube.com/watch?v=X2q8dcqpjOg&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=1">Lesson 1.
 Подготовка окружения разработки</a></h3>
 <ul>
@@ -76,14 +81,14 @@
 <li>Создаем компоненты для всех роутов</li>
 </ul>
 
-<h3><a href="https://www.youtube.com/watch?v=8f0yC0OfyhE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=9"></a>Lesson 9.
-Компоненты шапки</h3>
+<h3><a href="https://www.youtube.com/watch?v=8f0yC0OfyhE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=9">Lesson 9.
+Компоненты шапки</a></h3>
 <ul>
 <li>Разбиваем разметку хедера на компоненты</li>
 <li>Выделяем ссылки навигации в массив при помощи директивы @php</li>
 <li>Выводим ссылки при помощи директивы @foreach</li>
 <li>В компоненте nav.blade мы определяем <x-nav> с атрибутом :href (с двоеточием), который в последствии упадет в {{ $attributes }} указанную в компоненте nav-item</li>
-<li>Сокращаем :href так как имя атрибута совпадает с именем переменной, которую мы помещаем в качестве атрибута</li>>
+<li>Сокращаем :href так как имя атрибута совпадает с именем переменной, которую мы помещаем в качестве атрибута</li>
 </ul>
 
 <h3>Lesson N.</h3>
