@@ -16,6 +16,5 @@
             <x-nav-item :$href>{{$label}}</x-nav-item>
 
         @endforeach
-
     </ul>
 </nav>
