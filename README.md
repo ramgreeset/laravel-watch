@@ -92,7 +92,8 @@
 <li>Сокращаем :href так как имя атрибута совпадает с именем переменной, которую мы помещаем в качестве атрибута</li>
 </ul>
 
-<h3>Lesson 10 Подвал.</h3>
+<h3><a href="https://www.youtube.com/watch?v=RtMBDMLe2o4&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=10"></>Lesson 10.
+Подвал</h3>
 <ul>
 <li>Пишем структуру футера. Копирайт (&copy;), дата (date('Y')), меню, социальные сети</li>
 <li>Повторяем тот же вывод навигации как в шапка</li>
@@ -103,18 +104,24 @@
 <li>Добавляем иконки соцсетей</li>
 <li></li>
 </ul>
-<h3>Lesson N.</h3>
+
+
+<h3><a>Lesson 11. Компоненты подвала</a></h3>
 <ul>
 <li></li>
 </ul>
-<h3>Lesson N.</h3>
-<ul>
-<li></li>
-</ul><h3>Lesson N.</h3>
+
+<h3><a>Lesson N.</a></h3>
 <ul>
 <li></li>
 </ul>
-<h3>Lesson N.</h3>
+
+<h3><a>Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a>Lesson N.</a></h3>
 <ul>
 <li></li>
 </ul>
