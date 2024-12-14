@@ -106,8 +106,17 @@
 </ul>
 
 
-<h3><a>Lesson 11. Компоненты подвала</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=S6_A6jpPFow&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=11">Lesson 11.
+Компоненты подвала</a></h3>
 <ul>
+<li>Создаем директорию footer. Файл footer.blade.php перемещаем в созданную директорию и переименовываем в index.blade.php таким образом адрес
+к файлу footer находящийся в layout можно не менять
+</li>
+<li>Отделяем copyright</li>
+<li>Переносим nav в директорию footer. Указываем Blade адрес <x-footer.nav></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 
