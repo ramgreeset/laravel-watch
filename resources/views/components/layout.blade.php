@@ -1,4 +1,16 @@
-<!doctype html>
+@php
+    $navItems = [
+        'index' => 'Home',
+        'courses' => 'Courses',
+        'contact' => 'Contact',
+        'login' => 'Login',
+        'register' => 'Register',
+        'terms' => 'Terms',
+        'privacy' => 'Privacy',
+    ];
+@endphp
+
+    <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,12 +21,13 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-<x-header/>
+
+<x-header :$navItems/>
 
 <main class="h-screen grid place-items-center text-7xl font-black">
 
     {{ $slot }}
 </main>
-<x-footer/>
+<x-footer :$navItems/>
 </body>
 </html>

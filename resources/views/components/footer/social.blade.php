@@ -9,7 +9,6 @@
 @endphp
 
 <ul class="flex gap-4">
-
     @foreach($socialLinks as $socialUrl => $icon)
         <li>
             <a href="{{ $socialUrl }}">{!! $icon !!}</a>
