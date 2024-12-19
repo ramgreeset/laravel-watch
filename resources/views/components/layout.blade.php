@@ -1,5 +1,5 @@
 @php
-    $navItems = [
+    $navItems = collect([
         'index' => 'Home',
         'courses' => 'Courses',
         'contact' => 'Contact',
@@ -7,7 +7,7 @@
         'register' => 'Register',
         'terms' => 'Terms',
         'privacy' => 'Privacy',
-    ];
+    ]);
 @endphp
 
     <!doctype html>
@@ -25,7 +25,6 @@
 <x-header :$navItems/>
 
 <main class="h-screen grid place-items-center text-7xl font-black">
-
     {{ $slot }}
 </main>
 <x-footer :$navItems/>

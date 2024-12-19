@@ -1,5 +1,5 @@
 @php
-    $navItems = collect($navItems)->reject(
+    $navItems = $navItems->reject(
     fn($label, $routeName)=>in_array($routeName,['terms','privacy'])
     );
 @endphp
