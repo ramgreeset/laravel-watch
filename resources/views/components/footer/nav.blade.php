@@ -1,3 +1,8 @@
+@php
+    $items = config('watch.nav_items')->reject(
+    fn ($label, $routeName)=>in_array($routeName,['login','register'])
+);
+@endphp
 <ul class="flex gap-4">
     @foreach($items as $href => $label)
         <li>

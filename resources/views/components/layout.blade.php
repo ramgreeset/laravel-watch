@@ -1,16 +1,4 @@
-@php
-    $navItems = collect([
-        'index' => 'Home',
-        'courses' => 'Courses',
-        'contact' => 'Contact',
-        'login' => 'Login',
-        'register' => 'Register',
-        'terms' => 'Terms',
-        'privacy' => 'Privacy',
-    ]);
-@endphp
-
-    <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,11 +10,11 @@
 </head>
 <body>
 
-<x-header :$navItems/>
+<x-header/>
 
 <main class="h-screen grid place-items-center text-7xl font-black">
     {{ $slot }}
 </main>
-<x-footer :$navItems/>
+<x-footer/>
 </body>
 </html>
