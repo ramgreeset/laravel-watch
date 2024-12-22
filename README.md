@@ -158,8 +158,11 @@
 
 <h3><a href="https://www.youtube.com/watch?v=aIXcleaklhU&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=14">Lesson 14.
 Компонент иконок</a></h3>
-<pre>В данном уроке мы оптимизируем код вывода иконок соц. сетей при помощи отдельного массива с названиями компании и её URL.
-Данный урок был прослушан, но не повторен, потому как функцианал реализуемый лектором я ввел заранее в рамках самостоятельной работы.
+<pre>В данном уроке мы оптимизируем код вывода иконок соц. сетей при помощи отдельного массива
+с названиями компании и её URL.
+
+Данный урок был прослушан, но не повторен, потому как функцианал реализуемый лектором 
+я ввел заранее в рамках самостоятельной работы.
 </pre>
 
 <h3><a href="https://www.youtube.com/watch?v=4eeiyGItbHc&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=15">Lesson 15.
@@ -178,14 +181,14 @@
 <li>Прибиваем футер к низу экрана</li>
 <li>Верстка Tailwind. Наполняем index.blade.php контентом</li>
 <li>Определяем section в отдельный blade шаблон x-hero/li>
-<li></li>
-<li></li>
-<li></li>
 </ul>
 
-<h3><a>Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=PawGibOBtfs&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=17">Lesson 17.
+Секция новых курсов.</a></h3>
 <ul>
-<li></li>
+<li>Верстка структуры блока с последними курсами</li>
+<li>Вывод item курсов через перебор foreach(range(0, 3 as $i)) <- вернет массив элементов </li>
+<li>Выносим верстку в отдельный компонент</li>
 </ul>
 
 <h3><a>Lesson N.</a></h3>
