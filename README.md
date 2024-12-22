@@ -170,14 +170,16 @@
 <li>Убираем пропсы из кода. Теперь мы можем обращаться к элементам навигации через метод config('nav_items')</li>
 <li>Оборачиваем config(nav_items) в метод collect. Возможно будет целесообразно обернуть в коллекцию исходный массив определенный в директории config</li>
 <li>Повторяем тоже самое с иконками социальных сетей</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
 </ul>
 
-<h3><a>Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=jsMae_xDhgQ&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=16">Lesson 16.
+Основная секция главной страницы</a></h3>
 <ul>
+<li>Прибиваем футер к низу экрана</li>
+<li>Верстка Tailwind. Наполняем index.blade.php контентом</li>
+<li>Определяем section в отдельный blade шаблон x-hero/li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 

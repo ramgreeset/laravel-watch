@@ -8,11 +8,11 @@
     <title>{{config('app.name')}}</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="h-screen flex flex-col">
 
 <x-header/>
 
-<main class="h-screen grid place-items-center text-7xl font-black">
+<main class="flex-grow grid place-items-center font-black">
     {{ $slot }}
 </main>
 <x-footer/>

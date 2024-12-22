@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/index', 'home')->name('index');
+Route::view('/index', 'index')->name('index');
 Route::view('/courses', 'courses')->name('courses');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/login', 'login')->name('login');
