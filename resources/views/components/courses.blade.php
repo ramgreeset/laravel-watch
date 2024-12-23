@@ -4,7 +4,7 @@
         <div class="flex justify-between gap-2">
 
             @foreach(range(0, 3) as $i)
-                <a class="bg-yellow-300 rounded-md hover:bg-yellow-400" href="#">
+                <a class="bg-yellow-300 rounded-md hover:bg-yellow-400" href={{route('course')}}>
                     <article class="px-4 py-2">
                         <header>
                             <h2 class="font-semibold text-xl mb-2">Lorem ipsum dolor sit.</h2>
@@ -17,11 +17,11 @@
                         <footer class="flex flex-col items-end font-semibold">
                             <div>
                                 <div class="flex items-center gap-2">
-                                    {!! config('watch.course_icons.film') !!}
+                                    <x-icon name="film"/>
                                     <span>23 lessons</span>
                                 </div>
                                 <div class="flex items-center gap-2">
-                                    {!! config('watch.course_icons.clock') !!}
+                                    <x-icon name="clock"/>
                                     <span>2h 30m</span>
                                 </div>
                             </div>

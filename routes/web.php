@@ -9,3 +9,4 @@ Route::view('/login', 'login')->name('login');
 Route::view('/register', 'register')->name('register');
 Route::view('/terms', 'terms')->name('terms');
 Route::view('/privacy', 'privacy')->name('privacy');
+Route::view('/course', 'course')->name('course');

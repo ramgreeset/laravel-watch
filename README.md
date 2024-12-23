@@ -191,8 +191,16 @@
 <li>Выносим верстку в отдельный компонент</li>
 </ul>
 
-<h3><a>Lesson 18.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=995_oI4FElY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=19">Lesson 18.
+Рефакторинг иконок</a></h3>
 <ul>
+<li>Определяем маршрут course и задаем его нашим блокам курсов</li>
+<li>Задаем маршрут у карточек курсов</li>
+<li>Удаляем иконки из файла config</li>
+<li>Создаем файл x-icon в котором будут храниться наши иконки</li>
+<li>Внутри x-icon создаем ветвление @if ($name = "youtube")</li>
+<li>Что бы прокинуть эту переменную в x-icon пишем <x-icon name="youtube"/></li>
+<li></li>
 <li></li>
 </ul>
 
