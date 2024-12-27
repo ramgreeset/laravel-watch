@@ -204,6 +204,19 @@
 <li></li>
 </ul>
 
+<h3><a href="https://www.youtube.com/watch?v=Ms1Gcom_vI0&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=19">Lesson 19.
+Компонент курса</a></h3>
+<ul>
+<li>Создаем отдельный элемент для карточки курса</li>
+<li>Создаем массив данных с информацией о курсе</li>
+<li>Перебераем массив как $course и прокидываем эти данные пропсом в компонент курса</li>
+</ul>
+
+<h3><a>Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
 <h3><a>Lesson N.</a></h3>
 <ul>
 <li></li>
@@ -214,6 +227,14 @@
 <li></li>
 </ul>
 
+<h3><a>Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
 
+<h3><a>Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
 
 

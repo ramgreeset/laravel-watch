@@ -1,19 +1,19 @@
 @php
     $socialLinks = [
-        'https://www.youtube.com/'=> 'youtube',
-        'https://www.telegram.com'=> 'telegram',
-        'https://www.github.com'=> 'github',
-        'https://www.x.com'=> 'x',
+        'youtube' => 'https://www.youtube.com/',
+        'telegram' => 'https://web.telegram.org/k/',
+        'github' => 'https://www.github.com',
+        'x' => 'https://www.x.com',
     ]
 
 @endphp
 
 <ul class="flex gap-4 items-center">
 
-    @foreach($socialLinks as $link => $iconName)
+    @foreach($socialLinks as $name => $href)
         <li>
-            <a href="{{ $link }}" target="_blank" class="text-xl font-semibold hover:text-purple-400">
-                <x-icon name="{{ $iconName }}"/>
+            <a href="{{ $href }}" target="_blank">
+                <x-icon :$name class="size-8 fill-white hover:fill-violet-200"/>
             </a>
         </li>
 @endforeach
