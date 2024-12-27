@@ -12,7 +12,7 @@
 
 <x-header/>
 
-<main class="flex-grow grid place-items-center font-black">
+<main class="flex-grow">
     {{ $slot }}
 </main>
 <x-footer/>
