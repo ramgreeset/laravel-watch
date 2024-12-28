@@ -224,19 +224,26 @@
 <li>В маршрутах, замыкания меняем на стрелочную функцию чтобы не использовать use, return и для более лаконичного вида</li>
 </ul>
 
-<h3><a href="https://www.youtube.com/watch?v=9CushHceE9U&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=22">Lesson 21.
+<h3><a href="https://www.youtube.com/watch?v=9CushHceE9U&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=21">Lesson 21.
 Отображение курса по ID</a></h3>
 <ul>
 <li>У каждого элемента массива прописываем id</li>
 <li>В маршруте определяем course/{id}, Так же указываем $id в качестве аргумента к функции роута и в переданном ей массиве</li>
 <li>Прописываем id в роутах внутри ссылок навигационного меню</li>
-<li></li>
-<li></li>
 </ul>
 
-<h3><a>Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=kcIOf658ncQ&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=22">Lesson 22.
+Получение курсов из базы данных</a></h3>
 <ul>
-<li></li>
+<li>Создаем таблицу для курсов php artisan make:migration create_courses_table</li>
+<li>За что отвечают методы up и down в миграциях</li>
+<li>Пишем структуру для таблицы с курсами (default,string,text,integer,nullable,)</li>
+<li>migrate:reset | migrate</li>
+<li>Заполняем таблицу произвольными данными</li>
+<li>В роутах подключаемся к БД и забираем из неё все данные select</li>
+<li>Используем функцию compact(). Создает массив, содержащий переменные и их значения.</li>
+<li>Изменяем обращения к элементам прошлого массива с курсами, на обращение к объектам (->) $course->title</li>
+<li>Считываем одну запись для страницы курса selestOne</li>
 </ul>
 
 <h3><a>Lesson N.</a></h3>
