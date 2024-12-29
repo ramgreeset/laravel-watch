@@ -256,16 +256,15 @@
 <li>Указываем тип возвращаемого значения для экшена show (: view)</li>
 <li>В маршруте указываем к какому экшену обратится роут для обработки запроса Route::get('/course/{id}', [CourseController::class, 'show'])->name('course');</li>
 <li>Включаем интеграцию с БД в phpstorm</li>
-
 </ul>
 
-<h3><a href="https://www.youtube.com/watch?v=Gz8eqBRFsSY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=24">Команды для
-работы с базой данных в терминале 24.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=Gz8eqBRFsSY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=24">Lesson 24.
+Команды для
+работы с базой данных в терминале</a></h3>
+<pre>Работа с БД через консоль на данный момент невозможна. Windows !</pre>
+
+<h3><a href="https://www.youtube.com/watch?v=74O6Q8DGwxw&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=25">Lesson 25.
+Инспектирование SQL запросов</a></h3>
 <ul>
 <li></li>
-<li></li>
-<li></li>
-<li></li>
 </ul>
-
-

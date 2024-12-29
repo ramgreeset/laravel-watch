@@ -4,9 +4,9 @@
 );
 @endphp
 <ul class="flex gap-4">
-    @foreach($items as $href => $label)
+    @foreach($items as $routeName => $label)
         <li>
-            <a class="font-medium text-white hover:text-purple-200" href="{{ $href }}">{{ $label }}</a>
+            <a class="font-medium text-white hover:text-purple-200" href="{{ route($routeName) }}">{{ $label }}</a>
         </li>
     @endforeach
 </ul>
