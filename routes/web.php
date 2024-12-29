@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,17 +9,8 @@ Route::get('/', function () {
     return view('index', compact('courses'));
 })->name('index');
 
-Route::get('/courses', function () {
-    $courses = DB::select('SELECT * FROM courses');
-
-    return view('courses', compact('courses'));
-})->name('courses');
-
-Route::get('/course/{id}', function ($id) {
-    $course = DB::selectOne('SELECT * FROM courses where id =:id', ['id' => $id]);
-
-    return view('course', compact('course'));
-})->name('course');
+Route::get('/courses', [CourseController::class, 'index'])->name('courses');
+Route::get('/course/{id}', [CourseController::class, 'show'])->name('course');
 
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/login', 'login')->name('login');

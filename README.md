@@ -246,13 +246,25 @@
 <li>Считываем одну запись для страницы курса selestOne</li>
 </ul>
 
-<h3><a>Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=8FK3jPWEeA0&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=23">Lesson 23.
+Контроллер курсов</a></h3>
 <ul>
-<li></li>
+<li>Переносим логику для обработки маршрутов в контроллеры</li>
+<li>Создаем контроллер php artisan make:controller CourseController</li>
+<li>Создаем экшены index и show и переносим в них соответствующие маршруты</li>
+<li>Указываем в качестве аргумента к show(string $id) для параметризированного роута</li>
+<li>Указываем тип возвращаемого значения для экшена show (: view)</li>
+<li>В маршруте указываем к какому экшену обратится роут для обработки запроса Route::get('/course/{id}', [CourseController::class, 'show'])->name('course');</li>
+<li>Включаем интеграцию с БД в phpstorm</li>
+
 </ul>
 
-<h3><a>Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=Gz8eqBRFsSY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=24">Команды для
+работы с базой данных в терминале 24.</a></h3>
 <ul>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 
