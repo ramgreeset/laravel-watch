@@ -10,13 +10,13 @@ class CourseController extends Controller
 {
     public function index(): View
     {
-        $courses = DB::select('select * from courses');
+        $courses = DB::table('courses')->get();
         return view('courses', compact('courses'));
     }
 
     public function show(string $id): View
     {
-        $course = DB::selectOne('select * from courses where id =:id', compact('id'));
+        $course = DB::table('courses')->where('id', $id)->first();
         return view('course', compact('course'));
 
     }

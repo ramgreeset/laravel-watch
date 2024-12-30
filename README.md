@@ -271,8 +271,16 @@
 <li>Обращаемся к методам $query dump([$query->sql, $query->bindings, $query->time]); внутри DB::listen</li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=-hd_Ghbgjbc&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=26">Lesson 26.
+Конструктор SQL запросов</a></h3>
 <ul>
+<li>Переписываем запрос на получение всех данных из таблицы courses с помощью SQL конструктора через метод table->get</li>
+<li>Переписываем запрос на получение данных из конкретного кортежа $course = DB::table('courses')->where('id', $id)->first();</li>
+<li>Рассматриваем сокращенный вариант записи через метод find($id)</li>
+<li>Инспектируем SQL запрос при помощи dump | $courses = DB::table('courses')->dump()->get();</li>
+<li>Метод ddRowSql() - позволяет отобразить SQL запрос с учетом переданных динамических данных</li>
+<li>query->toRawSql в AppServiceProvider</li>
+<li>Для доступа метода toRawSql обновляем зависимости composer</li>
 <li></li>
 </ul>
 
