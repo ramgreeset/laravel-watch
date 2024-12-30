@@ -266,5 +266,77 @@
 <h3><a href="https://www.youtube.com/watch?v=74O6Q8DGwxw&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=25">Lesson 25.
 Инспектирование SQL запросов</a></h3>
 <ul>
+<li>В файле AppServiceProvider в методе boot определяем слушатель SQL запросов</li>
+<li>DB::listen(function(QueryExecuted $query)</li>
+<li>Обращаемся к методам $query dump([$query->sql, $query->bindings, $query->time]); внутри DB::listen</li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson N.</a></h3>
+<ul>
 <li></li>
 </ul>

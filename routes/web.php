@@ -4,7 +4,7 @@ use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    $courses = DB::select('SELECT * FROM courses');
+    $courses = DB::select('select * from courses');
 
     return view('index', compact('courses'));
 })->name('index');
