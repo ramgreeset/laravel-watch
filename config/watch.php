@@ -3,7 +3,7 @@
 return [
     'nav_items' => collect([
         'index' => 'Home',
-        'courses' => 'Courses',
+        'courses.index' => 'Courses',
         'contact' => 'Contact',
         'login' => 'Login',
         'register' => 'Register',

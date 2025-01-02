@@ -8,7 +8,7 @@
                href="{{ route('register') }}">Get
                 started</a>
             <a class="whitespace-nowrap grid-cols-1x-4 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-md font-semibold"
-               href="{{ route('courses') }}">Explore Courses</a>
+               href="{{ route('courses.index') }}">Explore Courses</a>
         </div>
     </div>
 </section>

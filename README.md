@@ -200,8 +200,6 @@
 <li>Создаем файл x-icon в котором будут храниться наши иконки</li>
 <li>Внутри x-icon создаем ветвление @if ($name = "youtube")</li>
 <li>Что бы прокинуть эту переменную в x-icon пишем <x-icon name="youtube"/></li>
-<li></li>
-<li></li>
 </ul>
 
 <h3><a href="https://www.youtube.com/watch?v=Ms1Gcom_vI0&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=19">Lesson 19.
@@ -284,9 +282,19 @@
 <li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=MWEN1CAbzwA&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=27">Lesson 27.
+Группировка маршрутов</a></h3>
 <ul>
-<li></li>
+<li>Оборачиваем схожие маршруты в Route::group</li>
+<li>Указываем контроллер, который отвечает за обработку сгруппированных маршрутов</li>
+<li>Используем метод prefix('courses') для сокращения длинны маршрута</li>
+<li>Именуем маршруты по конвенции Laravel name('courses.index')</li>
+<li>Используем метод name и удаляем префикс из названия маршрута name('index')</li>
+<li>Меняем названия маршрутов (courses.show и courses.index) в ссылках ведущих на страницы курсов</li>
+<li>Меняем путь до страницы Courses в файле конфигурации</li>
+<li>Создаем новую директорию для хранения шаблонов страниц | pages</li>
+<li>Меняем наименование компонентов на show и index</li>
+<li>Переопределяем маршрут для view с учетом новой директории (pages)</li>
 </ul>
 
 <h3><a">Lesson N.</a></h3>
