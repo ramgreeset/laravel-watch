@@ -297,9 +297,16 @@
 <li>Переопределяем маршрут для view с учетом новой директории (pages)</li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=nzGiqRqjGEI&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=28">Lesson 28.
+Модель курса</a></h3>
 <ul>
-<li></li>
+<li>invokable controller - контроллер с одним методом</li>
+<li>Создаем контроллер php artisan make:controller --invokable</li>
+<li>Переносим содержимое роута главной страницы в созданный контроллер</li>
+<li>Импортируем класс DB</li>
+<li>Указываем инвокабл контроллер в роуте</li>
+<li>Создаем модель</li>   
+<li>Используем модель в контроллере курса и Index контроллере</li>
 </ul>
 
 <h3><a">Lesson N.</a></h3>
