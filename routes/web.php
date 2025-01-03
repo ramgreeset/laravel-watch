@@ -12,7 +12,11 @@ Route::controller(CourseController::class)
     ->name('courses.')
     ->group(function () {
         Route::get('/', 'index')->name('index');
-        Route::get('/{id}', 'show')->name('show');
+        Route::get('/{course}', 'show')
+            ->name('show');
+//            ->missing(function (Request $request) {
+//                return Redirect::route('courses.index');
+//            });
     });
 
 Route::view('/contact', 'pages.contact')->name('contact');
