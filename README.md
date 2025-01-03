@@ -321,8 +321,18 @@
 <li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=Vur8nekwa0E&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=30">Lesson 30.
+Сидер курсов</a></h3>
 <ul>
+<li>Создаем класс сеятель для создания моковых данных курсов</li>
+<li>В методе run Определяем класс Course с методом create внутри которого вкладываем массив с данными-заглушками</li>
+<li>Тестируем сидер php artisan db:seed --class=CourseSeeder</li>
+<li>В сидере определяем коллекцию с диапазоном значений (1, 10) для добавления 10 записей collect()->range(1, 10)->each(function (int $i)</li>
+<li>Указываем переменную $i в поле 'title' => 'Course'.$i, для нумерации курсов</li>
+<li>Course::truncate - метод для удаления данных из таблицы</li>
+<li>Указываем наш класс сидера в DatabaseSeeder и выполняем db:seed (без указания класса сидера) для заполнения БД мок данными</li>
+<li>Рассматриваем команду php artisan migrate:fresh для обновления миграций. флаг --seed дополнительно прокинет наши сиды</li>
+<li></li>
 <li></li>
 </ul>
 
