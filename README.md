@@ -102,7 +102,6 @@
 <li>Задаем стили для навигации в футере</li>
 <li>Центрируем контент</li>
 <li>Добавляем иконки соцсетей</li>
-<li></li>
 </ul>
 
 
@@ -279,7 +278,6 @@
 <li>Метод ddRowSql() - позволяет отобразить SQL запрос с учетом переданных динамических данных</li>
 <li>query->toRawSql в AppServiceProvider</li>
 <li>Для доступа метода toRawSql обновляем зависимости composer</li>
-<li></li>
 </ul>
 
 <h3><a href="https://www.youtube.com/watch?v=MWEN1CAbzwA&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=27">Lesson 27.
@@ -317,8 +315,7 @@
 <li>Рассматриваем getRouteKeyName для глобального обращения роутов к определенным колонкам в БД</li>
 <li>Используем метод missing для отображения кастомных данный в случае если запись не будет найдена в БД</li>
 <li>Используем класс Redirect</li>
-<li></li>
-<li></li>
+
 </ul>
 
 <h3><a href="https://www.youtube.com/watch?v=Vur8nekwa0E&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=30">Lesson 30.
@@ -332,12 +329,22 @@
 <li>Course::truncate - метод для удаления данных из таблицы</li>
 <li>Указываем наш класс сидера в DatabaseSeeder и выполняем db:seed (без указания класса сидера) для заполнения БД мок данными</li>
 <li>Рассматриваем команду php artisan migrate:fresh для обновления миграций. флаг --seed дополнительно прокинет наши сиды</li>
-<li></li>
-<li></li>
+
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=AjC095wnlcM&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=31">Lesson 31.
+Фабрика курсов</a></h3>
 <ul>
+<li>Создаем класс фабрики CourseFactory</li>
+<li>Вызываем класс фабрики в CourseSeeder | Course::factory(10)->create(); в качестве аргумента factory() указываем кол-во создаваемых данных</li>
+<li>Указываем в модели трейт use HasFactory;</li>
+<li>Выполняем сидер</li>
+<li>Генерируем данные при помощи faker</li>
+<li>$this->faker->words(rand(2, 4), true)</li>
+<li>$this->faker->text()</li>
+<li>$this->faker->numberBetween(1, 50)</li>
+<li>Используем faker с интерполяцией blade</li>
+<li></li>
 <li></li>
 </ul>
 
