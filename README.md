@@ -344,12 +344,17 @@
 <li>$this->faker->text()</li>
 <li>$this->faker->numberBetween(1, 50)</li>
 <li>Используем faker с интерполяцией blade</li>
-<li></li>
-<li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=WYGjdavpM0k&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=32">Lesson 31.
+Генерация фабрик моделей</a></h3>
 <ul>
+<li>Правка верстки</li>
+<li>Альтернативный синтаксис библиотеки fakerphp | глобальная функция fake()</li>
+<li>Оборачиваем title в ucfirst - Верхний регистр первого символа строки</li>
+<li>Выносим функции фейк данных в отдельную переменную для большей читаемости</li>
+<li>fake()->paragraph(1)</li>
+<li>generate helper code</li>
 <li></li>
 </ul>
 

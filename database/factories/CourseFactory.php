@@ -8,11 +8,14 @@ class CourseFactory extends Factory
 {
     public function definition(): array
     {
+        $hours = fake()->numberBetween(1, 50);
+        $minutes = fake()->numberBetween(0, 59);
+
         return [
-            'title' => $this->faker->words(rand(2, 4), true),
-            'description' => $this->faker->text(200),
-            'lessons_count' => $this->faker->numberBetween(1, 50),
-            'length' => "{$this->faker->numberBetween(1, 50)}h {$this->faker->numberBetween(0, 59) }min",
+            'title' => ucfirst(fake()->words(rand(2, 4), true)),
+            'description' => ucfirst(fake()->paragraph(1)),
+            'lessons_count' => fake()->numberBetween(1, 50),
+            'length' => "{$hours}h {$minutes}min",
         ];
     }
 }
