@@ -346,7 +346,7 @@
 <li>Используем faker с интерполяцией blade</li>
 </ul>
 
-<h3><a href="https://www.youtube.com/watch?v=WYGjdavpM0k&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=32">Lesson 31.
+<h3><a href="https://www.youtube.com/watch?v=WYGjdavpM0k&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=32">Lesson 32.
 Генерация фабрик моделей</a></h3>
 <ul>
 <li>Правка верстки</li>
@@ -358,9 +358,12 @@
 <li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=DBwMVE0_Udc&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=33">Lesson 33.
+Метод sequence в фабриках</a></h3>
 <ul>
-<li></li>
+<li>Добавляем массив с предопределенными данными для использования метода squence в сидере</li>
+<li>В методе factory получаем кол-во элементов массива $data (массив с предопред. данными)</li>
+<li>Используем метод sequence и оператор спред (...)</li>
 </ul>
 
 <h3><a">Lesson N.</a></h3>
