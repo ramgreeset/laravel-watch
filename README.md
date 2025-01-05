@@ -355,7 +355,6 @@
 <li>Выносим функции фейк данных в отдельную переменную для большей читаемости</li>
 <li>fake()->paragraph(1)</li>
 <li>generate helper code</li>
-<li></li>
 </ul>
 
 <h3><a href="https://www.youtube.com/watch?v=DBwMVE0_Udc&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=33">Lesson 33.
@@ -366,8 +365,14 @@
 <li>Используем метод sequence и оператор спред (...)</li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a">Lesson 34. Пагинация</a></h3>
 <ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 
