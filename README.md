@@ -373,7 +373,6 @@
 <li>Указываем методу paginate(4) в качестве аргумента кол-во элементов для вывода на одной странице</li>
 <li>На {{ $courses->links() }} вешаем проверку на существование метода, для отображения пагинации только на странице курсов method_exists</li>
 <li>В контроллере IndexController указываем $courses=Course::take(4)->get() для отображения 4 карточек курсов</li>
-<li></li>
 </ul>
 
 <h3><a href="https://www.youtube.com/watch?v=cDB9ICc2Kr0&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=35">Lesson 35.
@@ -382,15 +381,17 @@
 <li>В инвокабл контроллере добавляем метод latest для сортировки курсов</li>
 <li>Метод oldest - сортировка в порядке возрастания</li>
 <li>Метод сортировки orderBy() - Сортировка по определенному значению указанному в аргементе метода</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
 </ul>
 
-<h3><a">Lesson 36.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=HTNNVWxOtto&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=36">Lesson 36.
+Форма поиска курсов</a></h3>
 <ul>
-<li></li>
+<li>Отвязываем логику компонента с курсами от логики курсов на главной странице (Правим шаблон с пагинацией)</li>
+<li>Создаем компонент поисковой строки</li>
+<li>Определяем иконку поиска в компонент x-icon</li>
+<li>Прописываем стили для формы поиска</li>
+<li>Установка tailwindCSS forms</li>
+<li>Правка стилей</li>
 </ul>
 
 <h3><a">Lesson N.</a></h3>
