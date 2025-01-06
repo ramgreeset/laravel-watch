@@ -376,12 +376,19 @@
 <li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=cDB9ICc2Kr0&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=35">Lesson 35.
+Сортировка курсов</a></h3>
 <ul>
+<li>В инвокабл контроллере добавляем метод latest для сортировки курсов</li>
+<li>Метод oldest - сортировка в порядке возрастания</li>
+<li>Метод сортировки orderBy() - Сортировка по определенному значению указанному в аргементе метода</li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a">Lesson 36.</a></h3>
 <ul>
 <li></li>
 </ul>
