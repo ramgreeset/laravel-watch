@@ -391,12 +391,22 @@
 <li>Определяем иконку поиска в компонент x-icon</li>
 <li>Прописываем стили для формы поиска</li>
 <li>Установка tailwindCSS forms</li>
-<li>Правка стилей</li>
+<li>Правка стилей</li> 
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=fBgZtzg_BaU&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=37">Lesson 37.
+Поиск курсов</a></h3>
 <ul>
-<li></li>
+<li>В форме поиска указываем action ведущий на страницу с курсами courses.index</li>
+<li>В CourseControllere задаем доступ к объекту request | index(Request $request)</li>
+<li>Указываем имя поисковому полю (<input name="search">) | В request->all упадет массив search=>... при обращении к адресу ...test/courses?search=bla-bla</li>
+<li>При указании request->search мы получим только строку указанную после ?search=</li>
+<li>Тестируем отправку запроса из input в поимковую строку</li>
+<li>К $courses применяем метод whereLike('title', "%{$request->search}%") В качестве аргументов указываем по какому ключу будем проводить сравнение, а также шаблон SQL запроса к БД </li>
+<li>Используем функцию orWhereLike('description', "%{$request->search}%") для поиска по описанию'</li>
+<li>В результате получим запрос select * from 'courses' where 'title like ? or 'description like ? order by 'created_at' desc</li>
+<li>Указываем <input value="{{request()->search}}"> или <input value="{{request('search')}}"> для того чтобы запрос оставался в поле инпута после отправки</li>
+<li>Используем метод withQueryString() для правильного взаимодействия поиска с пагинацией (при выдаче результата по поиску и переходу на новую страницу запрос перестает быть актуальным и пагинатор выдает нам все страницы вместо тех, которые соответствуют запросу)</li>
 </ul>
 
 <h3><a">Lesson N.</a></h3>
