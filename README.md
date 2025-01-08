@@ -422,3 +422,83 @@
 <li>Верстка блока со списком уроков. Использование спец символа &middot</li>
 <li>Вывод списка уроков через foreach</li>
 </ul>
+
+<h3><a">Lesson 40.</a></h3>
+<ul>
+<li>Рефакторинг. Разбиение страницы с курсом на компоненты</li>
+</ul>
+
+<h3><a">Lesson 41.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 42.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 43.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 44.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 45.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 46.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 47.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 48.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 49.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 50.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 51.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 52.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 53.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 54.</a></h3>
+<ul>
+<li></li>
+</ul>
+
+<h3><a">Lesson 55.</a></h3>
+<ul>
+<li></li>
+</ul>
