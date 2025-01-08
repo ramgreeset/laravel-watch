@@ -412,16 +412,13 @@
 <h3><a href="https://www.youtube.com/watch?v=mj-ezqObdAE&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=38">Lesson 38.
 Страница курса</a></h3>
 <ul>
-<li></li>
+<li>Рефакторинг верстки страницы с курсом</li>
+<li>В шаблоне курса выводим информацию о последнем обновлении {{ $course->updated_at->format('d.m.Y') }}
 </ul>
 
-<h3><a">Lesson N.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=CecXFkN8ZyI&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=39">Lesson 39.
+Список уроков</a></h3>
 <ul>
-<li>Рефакторинг верстки страницы с курсом</li>
-<li>В шаблоне курса выводим информацию о последнем обновлении {{ $course->updated_at->format('d.m.Y') }}</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Верстка блока со списком уроков. Использование спец символа &middot</li>
+<li>Вывод списка уроков через foreach</li>
 </ul>
