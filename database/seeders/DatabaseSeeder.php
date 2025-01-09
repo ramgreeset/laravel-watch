@@ -7,6 +7,7 @@ use App\Models\User;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Schema;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,9 +16,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call([
-            CourseSeeder::class,
-            LessonSeeder::class
-        ]);
+
+        Schema::withoutForeignKeyConstraints(function () {
+            $this->call([
+                CourseSeeder::class,
+                LessonSeeder::class
+            ]);
+
+        });
     }
 }
