@@ -12,7 +12,7 @@ class CourseFactory extends Factory
         $minutes = fake()->numberBetween(0, 59);
 
         return [
-            'title' => ucfirst(fake()->words(rand(2, 4), true)),
+            'title' => ucfirst(fake()->words(mt_rand(2, 4), true)),
             'description' => ucfirst(fake()->paragraph(1)),
             'lessons_count' => fake()->numberBetween(1, 50),
             'length' => "{$hours}h {$minutes}min",
