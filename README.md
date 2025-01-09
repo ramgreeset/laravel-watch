@@ -441,9 +441,10 @@
 <li>Указываем данные полученные из класса Lesson и раскидываем их в компоненте {{$lessons->title}} и т.д.</li>
 </ul>
 
-<h3><a">Lesson 42. Внешние ключи (foreign keys)</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=3X6BDtTN8Es&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=42">Lesson 42.
+Внешние ключи (foreign keys)</a></h3>
 <ul>
-<li>Добавляем в миграции courses, колонку с id (course_id) для связывания таблиц через внешние ключи (foreign key)</li>
+<li>Добавляем в миграции lessons, колонку с id (course_id) для связывания таблиц через внешние ключи (foreign key)</li>
 <li>Работа с методом foreign, а также references для связывания lessons с course_id и id->on('courses')</li>
 <li>Работа с методом foreignId('course_id')->constrained(table: 'courses');</li>
 <li>Метод onUpdate('cascade') при обновлении кортежа обновит так же связанный с ним кортеж</li>
@@ -452,8 +453,6 @@
 <li>cascadeOnUpdate и cascadeOnDelete - работают вметсе с foreignIdFor(Class::class)</li>
 <li>Course::inRandomOrder->first()->id() - связывание одной записи с другой в хаотичном порядке</li>
 <li>Schema::withoutForeignKeyConstraints() - отключение проверок</li>
-<li></li>
-<li></li>
 </ul>
 
 <h3><a">Lesson 43.</a></h3>
