@@ -19,8 +19,7 @@ class DatabaseSeeder extends Seeder
 
         Schema::withoutForeignKeyConstraints(function () {
             $this->call([
-                CourseSeeder::class,
-                LessonSeeder::class
+                CourseSeeder::class
             ]);
 
         });

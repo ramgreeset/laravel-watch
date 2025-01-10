@@ -14,6 +14,7 @@ class CourseController extends Controller
         $courses = Course::latest()
             ->whereLike('title', "%{$request->search}%")
             ->orWhereLike('description', "%{$request->search}%")
+            ->orWhereLike('id', "%{$request->search}%")
             ->paginate(8)
             ->withQueryString();
         return view('pages.courses.index', compact('courses'));

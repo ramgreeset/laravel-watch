@@ -445,7 +445,7 @@
 Внешние ключи (foreign keys)</a></h3>
 <ul>
 <li>Добавляем в миграции lessons, колонку с id (course_id) для связывания таблиц через внешние ключи (foreign key)</li>
-<li>Работа с методом foreign, а также references для связывания lessons с course_id и id->on('courses')</li>
+<li>Работа с методом foreign, а также references для связывания course_id (lessons) и id->on('courses')</li>
 <li>Работа с методом foreignId('course_id')->constrained(table: 'courses');</li>
 <li>Метод onUpdate('cascade') при обновлении кортежа обновит так же связанный с ним кортеж</li>
 <li>Метод onDelete('cascade') при удалении кортежа так же удалит связанный с ним кортеж</li>
@@ -455,9 +455,15 @@
 <li>Schema::withoutForeignKeyConstraints() - отключение проверок</li>
 </ul>
 
-<h3><a">Lesson 43.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=q15h43GfQnM&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=43">Lesson 43.
+Отношение один ко многим</a></h3>
 <ul>
-<li></li>
+<li>Определив public function lessons(){}:HasMany, которая вернет $this->hasMany(Lesson::class) мы связываем модель Course с моделью Lesson</li>
+<li>Проверяем полученные (связанные) данные через интерфейс командной строки tinker</li>
+<li>Обращаемся к свойству lessons ($course->lessons) в котором находятся связанные с id <-> course_id данные</li>
+<li>Помещаем внешнее свойство в компонент <x-course.lessons :lessons="$course->lessons"></li>
+<li>Используем метод $lessons->count() для подсчета кол-ва уроков в коллекции</li>
+<li>Если мы не следуем соглашениям именования, мы можем указать связь таблиц (в Models\Course) явно $this->hasMany(Lesson::class, 'course_id', 'id')</li>
 </ul>
 
 <h3><a">Lesson 44.</a></h3>
