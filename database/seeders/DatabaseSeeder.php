@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Course;
+use App\Models\Lesson;
 use App\Models\User;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -19,7 +20,8 @@ class DatabaseSeeder extends Seeder
 
         Schema::withoutForeignKeyConstraints(function () {
             $this->call([
-                CourseSeeder::class
+                CourseSeeder::class,
+                LessonSeeder::class
             ]);
 
         });

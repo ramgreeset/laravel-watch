@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Course;
 use App\Models\Lesson;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class LessonSeeder extends Seeder
@@ -14,6 +14,14 @@ class LessonSeeder extends Seeder
     public function run(): void
     {
         Lesson::truncate();
-        Lesson::factory(100)->create();
+
+        Course::each(fn(Course $course) => collect()
+            ->range(1, mt_rand(5, 20))
+            ->each(fn($number) => Lesson::factory()
+                ->for($course)
+                ->create(['number' => $number])
+            )
+        );
+//        Lesson::factory(200)->create();
     }
 }

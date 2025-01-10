@@ -466,8 +466,14 @@
 <li>Если мы не следуем соглашениям именования, мы можем указать связь таблиц (в Models\Course) явно $this->hasMany(Lesson::class, 'course_id', 'id')</li>
 </ul>
 
-<h3><a">Lesson 44.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=PsDPKq9_EOk&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=44">Lesson 44.
+Отношение один ко многим</a></h3>
 <ul>
+<li>Меняем логику генерации случайных данных в LessonSeeder для кол-ва уроков в курсах| Course::each. В логике указываем добавление данных в поле 'number'</li>
+<li>В модели Lesson описываем отношение "Многие к одному" belongsTo</li>
+<li>При помощи Lesson::factory()->for($course) в LessonSeeder указываем с какой моделью связать сгенерированные данные</li>
+<li>Выводим данные о кол-ве уроков в карточку курса</li>
+<li>Удаляем добавление фейковых данных в таблицу из factory lessons_count и саму колонку lessons_count из миграций </li>
 <li></li>
 </ul>
 

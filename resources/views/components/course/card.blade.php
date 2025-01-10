@@ -8,7 +8,7 @@
             <div>
                 <div class="flex items-center gap-2">
                     <x-icon name="film" class="size-4"/>
-                    <span>{{ $course->lessons_count }} lessons</span>
+                    <span>{{ $course->lessons->count() }} lessons</span>
                 </div>
                 <div class="flex items-center gap-2">
                     <x-icon name="clock" class="size-4"/>
