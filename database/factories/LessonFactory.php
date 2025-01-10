@@ -11,7 +11,7 @@ class LessonFactory extends Factory
     {
         return [
             'course_id' => Course::inRandomOrder()->first(),
-            'number' => 1,
+            'number' => 0,
             'title' => ucfirst(fake()->words(mt_rand(2, 4), true)),
 
         ];
