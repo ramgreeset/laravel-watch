@@ -484,19 +484,27 @@
 </pre>
 </ul>
 
-<h3><a">Lesson 45. Страница урока</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=IEcrXKwBQfs&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=45">Lesson 45.
+Страница урока</a></h3>
 <ul>
 <li>Создаем контроллер в котором создаем метод show</li>
 <li>Определяем маршрут для урока и указываем к какому контроллеру и экшену обращаться Route::get('lessons/{lesson}', [LessonController::class, 'show'])</li>
 <li>В методе show(Lesson $lesson) в (LessonController) возвращаем (return) страницу lesson.show.blade.php и передаем ей массив lesson, указав вторым аргументом compact('lesson')</li>
 <li>Указываем маршрут в ссылках внутри компонентов в тегах <a></li>
 <li>Создаем компонент lesson.show.blade.php. Верстка</li>
-<li></li>
 </ul>
 
-<h3><a">Lesson 46.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=kq64_4QiLhU&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=46">Lesson 46.
+Видео плеер</a></h3>
 <ul>
-<li></li>
+<li>Добавляем iframe видео на страницу урока</li>
+<li>Убираем лишние атрибуты (height, width)</li>
+<li>В поле title указываем $lesson->title</li>
+<li>Верстка кнопок плеера. пред/след. урок.</li>
+<li>Добавление иконок</li>
+<li>В роуте для кнопки "Все курсы" указываем отношение урока к курсу {{ route('courses.show', $lesson->course) }}</li>
+<li>Добавление иконок</li>
+<li>Добавление иконок</li>
 </ul>
 
 <h3><a">Lesson 47.</a></h3>
