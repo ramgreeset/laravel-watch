@@ -11,7 +11,7 @@ class CourseSeeder extends Seeder
     public function run(): void
     {
         Course::truncate();
-        Course::factory(20)->create();
+        Course::factory(80)->create();
 
     }
 }

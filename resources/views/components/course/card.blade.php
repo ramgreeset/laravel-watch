@@ -1,4 +1,4 @@
-<a class="w-full bg-yellow-300 rounded-md hover:bg-yellow-400" href={{route('courses.show', $course->id)}}>
+<a class="w-full bg-yellow-300 rounded-md hover:bg-yellow-400" href={{route('courses.show', $course)}}>
     <article class="px-4 py-2 h-full flex flex-col">
         <header>
             <h2 class="font-semibold text-xl mb-2">{{ $course->id }}. {{ $course->title }}</h2>
