@@ -12,7 +12,7 @@ return new class extends Migration {
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
-            $table->string('title')->default('Course');
+            $table->string('title')->default("Course");
             $table->text('description')->nullable();
             $table->string('length')->default('2h 30m');
             $table->timestamps();

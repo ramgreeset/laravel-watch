@@ -360,7 +360,7 @@
 <h3><a href="https://www.youtube.com/watch?v=DBwMVE0_Udc&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=33">Lesson 33.
 Метод sequence в фабриках</a></h3>
 <ul>
-<li>Добавляем массив с предопределенными данными для использования метода squence в сидере</li>
+<li>Добавляем массив с предопределенными данными для использования метода sequence в сидере</li>
 <li>В методе factory получаем кол-во элементов массива $data (массив с предопред. данными)</li>
 <li>Используем метод sequence и оператор спред (...)</li>
 </ul>
@@ -398,7 +398,7 @@
 Поиск курсов</a></h3>
 <ul>
 <li>В форме поиска указываем action ведущий на страницу с курсами courses.index</li>
-<li>В CourseControllere задаем доступ к объекту request | index(Request $request)</li>
+<li>В CourseController задаем доступ к объекту request | index(Request $request)</li>
 <li>Указываем имя поисковому полю (<input name="search">) | В request->all упадет массив search=>... при обращении к адресу ...test/courses?search=bla-bla</li>
 <li>При указании request->search мы получим только строку указанную после ?search=</li>
 <li>Тестируем отправку запроса из input в поимковую строку</li>
@@ -423,13 +423,14 @@
 <li>Вывод списка уроков через foreach</li>
 </ul>
 
-<h3><a href="https://www.youtube.com/watch?v=coIq9Odmfp8&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=40">Lesson
-40.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=coIq9Odmfp8&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=40">Lesson 40.
+Группировка компонентов ресурса курсов</a></h3>
 <ul>
 <li>Рефакторинг. Разбиение страницы с курсом на компоненты</li>
 </ul>
 
-<h3><a">Lesson 41.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=0rzRB9GReBM&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=41">Lesson 41.
+Заполнение таблицы уроков</a></h3>
 <ul>
 <li>Создаем модель Lesson, а так же фабрику, сидер и миграции</li>
 <li>Определяем необходимые нам поля в миграциях</li>
@@ -507,8 +508,16 @@
 <li>Добавление иконок</li>
 </ul>
 
-<h3><a">Lesson 47.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=bZiOOZfEh3w&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=47">Lesson 47.
+Тестовые данные уроков</a></h3>
 <ul>
+<li>Отделение компонента плеера</li>
+<li>Правка контейнера в tailwind.config | Рефакторинг верстки</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 </ul>
 
