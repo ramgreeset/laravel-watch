@@ -1,6 +1,6 @@
 <footer class="bg-violet-600">
-    <div class="flex flex-col py-4">
-        <div class="flex items-center gap-8 container justify-between">
+    <div class="flex flex-col container py-4">
+        <div class="flex items-center gap-8 justify-between">
             <x-footer.nav/>
             <x-footer.social/>
         </div>

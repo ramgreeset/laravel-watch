@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="pt-32 px-5">
+    <section class="container">
         <div class="flex flex-col gap-8 pb-24">
             <h2 class="text-5xl font-extrabold text-center">Courses</h2>
             <x-course.search/>
