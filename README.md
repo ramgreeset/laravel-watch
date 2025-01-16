@@ -527,9 +527,14 @@
 <li>Правим фабрики и сидер для lesson</li>
 </ul>
 
-<h3><a">Lesson 49.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=YAQyxCGXFiA&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=49">Lesson 49.
+Отношение "Один из многих"</a></h3>
 <ul>
-<li></li>
+<li>Добавляем ссылку для кнопки Start Watching route('lessons.show', $course->lessons->first())</li>
+<li>Для модели Course прописываем отношение HasOne с названием firtsLesson</li>
+<li>Работа с функцией ofMany('column', 'aggregate') | return $this->hasOne(Lesson::class)->ofMany('number', 'min');</li>
+<li>Рефакторим firstLesson return $this->lessons()->one()->ofMany('number', 'min');</li>
+<li>Меняем роут с route('lessons.show', $course->lessons->first()) на route('lessons.show', $course->firstLesson)</li>
 </ul>
 
 <h3><a">Lesson 50.</a></h3>
