@@ -9,7 +9,7 @@
             <a href="#"
                class="text-center whitespace-nowrap rounded-md font-semibold px-4 py-2 grow bg-violet-500 text-white hover:bg-violet-600">Start
                 Watching</a>
-            <a href="https://github.com"
+            <a href="{{ $course->repository_uri }}"
                target="_blank"
                class="text-center whitespace-nowrap rounded-md font-semibold px-4 py-2 grow bg-gray-100 hover:bg-gray-200">Sourse
                 Code</a>

@@ -513,17 +513,18 @@
 <ul>
 <li>Отделение компонента плеера</li>
 <li>Правка контейнера в tailwind.config | Рефакторинг верстки</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Создаем массив данных приближенных к реальным в LessonSeeder</li>
 </ul>
 
-<h3><a">Lesson 48.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=F3n8U6HW5CY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=48">Lesson 48.
+Ссылки на видео и исходные коды</a></h3>
 <ul>
-<li></li>
+<li>Добавляем поле repository_uri в миграции courses</li>
+<li>Обновляем фабрику и сидер курсов указав в них данные поля repository_uri к заполнению</li>
+<li>Добавляем ссылку указанную в сидере</li>
+<li>Прокидываем данные repository_uri в компонент уроков</li>
+<li>Для миграции lessons так же создаем доп. атрибуты. video_url и commit_url</li>
+<li>Правим фабрики и сидер для lesson</li>
 </ul>
 
 <h3><a">Lesson 49.</a></h3>

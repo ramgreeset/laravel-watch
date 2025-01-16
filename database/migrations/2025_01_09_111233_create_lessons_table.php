@@ -24,6 +24,8 @@ return new class extends Migration {
 
             $table->unsignedSmallInteger('number');
             $table->string('title');
+            $table->string('video_url');
+            $table->string('commit_url');
             $table->timestamps();
         });
     }

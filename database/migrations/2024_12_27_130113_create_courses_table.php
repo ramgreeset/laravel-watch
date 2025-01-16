@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->string('title')->default("Course");
             $table->text('description')->nullable();
             $table->string('length')->default('2h 30m');
+            $table->string('repository_uri')->nullable();
             $table->timestamps();
 
 

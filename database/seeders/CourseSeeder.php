@@ -13,6 +13,7 @@ class CourseSeeder extends Seeder
             'title' => 'JetBrains IDE | Productivity',
             'description' => 'Let\'s review how to use JetBrains IDEs productively. PhpStorm will be used for showcasing features.',
             'length' => '1h 40min',
+            'repository_uri' => 'https://github.com/ramgreeset/laravel-watch',
         ],
     ];
 
