@@ -537,9 +537,20 @@
 <li>Меняем роут с route('lessons.show', $course->lessons->first()) на route('lessons.show', $course->firstLesson)</li>
 </ul>
 
-<h3><a">Lesson 50.</a></h3>
+<h3><a href="https://www.youtube.com/watch?v=3i_GObkL-WY&list=PL-FhWbGlJPfY8KK_1Tp6fdmCjlX8soQCA&index=50">Lesson 50.
+Навигация по урокам (аксессоры)</a></h3>
 <ul>
-<li></li>
+<li>Создаем метод аксессор protected function previous(): Attribute
+Этот метод используется для создания кастомного аксессора с помощью фасада Attribute.
+Он задает поведение для получения значения атрибута previous.
+</li>
+<li>Возвращаем вызов метода make у Attribute внутри которого при помощи get определяем функцию
+,которая вернет нам номер урока, который отличается от текущего на 1
+</li>
+<li>Обращаемся к course, lessons и firstWhere для поиска number курса -1</li>
+<li>Определяем роут в котором указываем наш метод аксессор {{ route('lessons.show', $lesson->previous) }}</li>
+<li>Отображаем кнопку с маршрутом, только в случае если есть урок с номером ниже текущего</li>
+<li>Пишем такую же реализацию для кнопки next</li>
 </ul>
 
 <h3><a">Lesson 51.</a></h3>
